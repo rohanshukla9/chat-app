@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "Chat using nodejs and socketio",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "Rohan Shukla",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
